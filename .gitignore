@@ -1,5 +1,4 @@
-backend.hcl
-.terraform*
+.terraform/*
 tfplan
 tfstate
 *.key
