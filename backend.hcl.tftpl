@@ -1,0 +1,10 @@
+assume_role = {
+  role_arn = "${role_arn}"
+  external_id = "${external_id}"
+}
+bucket         = "${bucket_name}"
+dynamodb_table = "${dynamodb_table}"
+encrypt        = true
+#key           = "terraform.tfstate"
+region         = "${region}"
+retry_mode     = "adaptive"
