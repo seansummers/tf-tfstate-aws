@@ -1,0 +1,7 @@
+backend.hcl
+*.tfstate*
+.terraform*
+tfplan
+tfstate
+*.key
+
