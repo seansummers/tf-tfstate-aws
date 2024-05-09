@@ -1,1 +1,1 @@
-terraform.tfstate filter=ageencrypt
+*.tfstate* filter=ageencrypt
