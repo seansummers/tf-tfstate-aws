@@ -1,5 +1,8 @@
 .terraform/*
 tfplan
-tfstate
+*tfstate
 *.key
+**/backend.*
+!*.tftpl
+**/.DS_Store
 
